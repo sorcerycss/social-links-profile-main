@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  background: hsl(0, 0%, 8%);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.profile-name {
+  margin-bottom: 0.2em;
+  font-weight: 600;
+}
+
+.profile-location {
+  margin-top: 0;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+
+  /* border: 2px solid magenta; */
+}
+
+.container-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.avatar-image {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: hsl(0, 0%, 12%);
+  padding: 3em;
+  border-radius: 10px;
+
+  /* border: 2px solid magenta; */
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* border: 2px solid magenta; */
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* border: 2px solid magenta; */
+}
+
+.social-link {
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 6px;
+  background: hsl(0, 0%, 20%);
+  padding: 1em;
+  margin: 0.5em 0 0.5em;
+}
